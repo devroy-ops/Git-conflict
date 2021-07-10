@@ -1,0 +1,19 @@
+***********Git conflict*********
+
+   82  git branch
+   83  cat >devroy
+   84  git add .
+   85  git commit -m "dev"
+   86  git checkout branch1
+   87  cat >devroy
+   88  git add .
+   89  git commit -m "branch"
+   90  git checkout master
+   92  git branch
+   94  git merge branch1
+   95  vi devroy
+   97  git status
+   98  git add .
+   99  git commit -m "new commit"
+  100  git log --oneline
+  101  git show (commit ID like-b130d35)
